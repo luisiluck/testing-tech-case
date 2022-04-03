@@ -23,20 +23,13 @@ public class RestApiDefinition {
         URL = url;
     }
 
-    @Given("the user want to Colombia URL")
-    public void the_url_is_ok() {
-        assertThat(URL).isNotEmpty();
-    }
-
     @When("I check the application status")
     public void i_check_the_application_status() {
-//        jhon.readStatus(URL);
         throw new NotImplementedException("please implement this step");
     }
 
     @Then("the API should contain {}")
     public void the_API_should_return(String expectedMessage) {
-//        jhon.readContent(expectedMessage);
         throw new NotImplementedException("please implement this step");
     }
 }
